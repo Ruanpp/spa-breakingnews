@@ -1,3 +1,12 @@
+import { Navbar } from "../../components/Navbar/Navbar";
+
 export default function Home(){
-    return <h1>ola Home</h1>
+    return (
+        <>
+        <Navbar />
+        <h1>ola Home</h1>
+        </>
+        
+
+    ) 
 }
